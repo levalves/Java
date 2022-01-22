@@ -6,15 +6,15 @@ public class PrimeiroPrograma {
 
 	public static void main(String[] args) {
 		Gato gato = new Gato();
-		Livro livro  = new Livro();
+		Livros livros = new Livros();
 		System.out.println(gato);
-		System.out.println(livro);
+		System.out.println(livros);
 
 	}
 
 }
 
-class Livro {
-	public String livro;
+class Livros {
+	public String livros;
 	public String numPaginas;
 }
