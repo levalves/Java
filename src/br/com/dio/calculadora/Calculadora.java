@@ -10,9 +10,9 @@ public class Calculadora {
 		
 		int a, b;
 		
-		System.out.println("Digite o primeiro Valor:");
+		System.out.println("Digite o primeiro Valor :");
 		a = scan.nextInt();
-		System.out.println("Digite o segundo  Valor:");
+		System.out.println("Digite o segundo  Valor :");
 		b = scan.nextInt();
 		
 		int adicao = adicao(a,b);
